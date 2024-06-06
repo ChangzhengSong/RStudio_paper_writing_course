@@ -3,7 +3,7 @@ title: "New paper template"
 subtitle: |
   \raggedright  Author 1^1,2,\*^ , Author 2^1,2^, Author 3^3^, Author 4E^4^ \newline<br>^1^Heidelberg University, Centre for Organismal Studies (COS), 69120 Heidelberg, Germany \newline<br>^2^Affiliation 2 \newline<br>^3^Affiliation 3 \newline<br>^4^Affiliation 4\newline<br>  ^\*^Correspondence: xy@cos.uni-heidelberg.de
 mainfont: Arial
-monofont: DejaVu Sans Mono #Times New Roman
+monofont: Times New Roman #Times New Roman
 fontsize: 11pt
 linestretch: 1.2
 linkcolor: blue
@@ -52,7 +52,7 @@ It is now a test to edit the text and see how the changes show up on GitHub.
 
 Test of git show.
 
-In the visual editor mode, go to 'Insert' -\> \@ Citation
+In the visual editor mode, go to 'Insert' -\> \@ Citation[@Wu2020; @Stitz2023]
 
 You can select a Zotero library, PubMed, CrossRef etc. and insert the citations. [@Jacobs2023]
 
@@ -95,6 +95,7 @@ knitr::include_graphics("figures/Figure1.png")
 
 ```{r, out.width = "100%", fig.cap="**Figure 1. Our nice figure from yesterday** (A) A nice picture. (B) legend.  (C) <br> (D) " }
 #| echo: false 
+#| warning: false
 
 knitr::include_graphics("figures/Figure_complex.png")
 ```
